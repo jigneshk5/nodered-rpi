@@ -1,42 +1,30 @@
 # Home Automation with Alexa
 
-## YOUTUBE TUTORIAL LINKS
 
-1. Setting up Adafruit.io and IFTTT for Alexa (PART 1):- 
-2. Setting up Adafruit.io and IFTTT for Alexa (PART 2):- 
+## ARDUINO CODE and nodered flow
 
-3. Setting up SINRIC & SINRIC.PRO for Alexa:- 
-- PPT USED DURING THE SESSION:- alexa.pptx
+1. nodered_mqtt/nodered_mqtt.ino -> Arduino code for connecting with MQTT broker and send data from DHT 11 temperature sensor.
 
-
-## ARDUINO CODE WITH DESCRIPTION
-
-1. adafruit_ifttt/adafruit_ifttt.ino -> Arduino code for connecting with Adafruit.io using Adafruit Mqtt library.
-
-2. adafruit_ifttt2/adafruit_ifttt2.ino -> Arduino code for connecting with Adafruit.io using Arduino Mqtt library.
-
-3. alexa_sinric/alexa_sinric.ino -> Arduino code for connecting with sinric.com (v1)
-
-4. alexa_sinricpro/alexa_sinricpro.ino -> Arduino code for connecting with sinric.pro (v2)
+2. flow.json -> Nodered flow.
 
 ## CIRCUIT DIAGRAM
 
-![](circuit.png)
+![](nodered_bb.png)
 
 
-## ADAFRUIT DASHBOARD WITH SETUP
+## ARCHITECTURE
 
-![](adafruit_demo.png)
-
-
-## IFTTT APPLETS
-
-![](ifttt.PNG)
+![](architecture.png)
 
 
-## SINRICPRO DASHBOARD WITH SETUP
+## NODERED FLOW
 
-![](sinric_demo.png)
+![](flow.png)
+
+
+## NODERED UI DASHBOARD
+
+![](ui.png)
 
 
 ## LINK FOR WRITTEN BLOG
