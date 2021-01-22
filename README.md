@@ -1,4 +1,4 @@
-# Home Automation with Alexa
+# Nodered Management Dashboard with Raspberry Pi and Nodemcu using MQTT.
 
 
 ## ARDUINO CODE and nodered flow
